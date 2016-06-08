@@ -49,9 +49,11 @@ output.  You can plot the progress by executing `plot_results.py`:
 `$ python plot_results.py breakout_05-28-17-09_0p00025_0p99/results.csv`
 
 After training completes, you can watch the network play using the 
-`ale_run_watch.py` script: 
+`ale_run_watch.py` script. REMEMBER to select the network you used (nips or nature): 
 
-`$ python ale_run_watch.py breakout_05-28-17-09_0p00025_0p99/network_file_99.pkl`
+`$ python ale_run_watch.py nips breakout_05-28-17-09_0p00025_0p99/network_file_99.pkl`
+
+`$ python ale_run_watch.py nature breakout_05-28-17-09_0p00025_0p99/network_file_99.pkl`
 
 # Performance Tuning
 
